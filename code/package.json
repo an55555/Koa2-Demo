@@ -1,0 +1,23 @@
+{
+  "name": "p_jira_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "^1.17.0",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.3",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.3",
+    "node-uuid": "^1.4.8",
+    "request": "^2.86.0",
+    "sequelize": "^4.37.8"
+  }
+}
